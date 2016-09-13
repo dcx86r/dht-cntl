@@ -1,0 +1,10 @@
+[Unit]
+Description=DHT Control Timer
+
+[Timer]
+OnBootSec=<time_value>
+OnUnitActiveSec=<time_value>
+Unit=cron-trans.service
+
+[Install]
+WantedBy=multi-user.target
