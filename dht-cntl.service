@@ -3,7 +3,7 @@ Description=Transmission DHT Control
 
 [Service]
 Type=oneshot
-ExecStart=/<path>/<to>/<dht-cntl.sh>
+ExecStart=/<path>/<to>/dht-cntl.sh
 
 [Install]
 WantedBy=multi-user.target
